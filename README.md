@@ -1,4 +1,7 @@
-### Hi there 👋
+### 안녕하세요. 갱상도 사투리쓰는 개발자입니다.
+자랑할건 없지만 제가 만든 프로젝를 고정해놨습니다.
+
+
 
 <!--
 **XIYO/XIYO** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
