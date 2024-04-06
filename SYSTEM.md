@@ -1,14 +1,12 @@
-# SYSTEM
+# SYSTEM 
 
 저의 시스템 입니다.
 
-## WINDOWS 11
-
-### INSTALLED SOFTWARE
+## WINDOWS 11 🪟
 
 업데이트의 편리성을 위해 MS 스토어 버전이 있으면 그것을 설치하고, 없으면 `winget`을 사용하여 설치합니다.
 
-#### UTILITIES
+#### UTILITIES 🧰
 
 - [oh-my-posh](https://github.com/jandedobbeleer/oh-my-posh): \
   터미널 UI 프로그램, MS 스토어 버전
@@ -31,6 +29,7 @@
   ```shell
   winget install --id JanDeDobbeleer.OhMyPosh
   ```
+
 - [PowerToys](https://github.com/microsoft/PowerToys): \
   유틸리티 프로그램, MS 스토어 버전
 
@@ -38,7 +37,7 @@
   winget install --id XP89DCGQ3K6VLD
   ```
 
-#### DEVELOPMENT
+#### DEVELOPMENT 🖥️
 
 - [Visual Studio Code](https://code.visualstudio.com/): \
   텍스트 에디터, MS 스토어 버전
@@ -46,13 +45,14 @@
   ```shell
   winget install --id XP9KHM4BK9FZ7Q
   ```
+
 - [JetBrains.Toolbox](https://www.jetbrains.com/toolbox-app/): \
   개발 IDE, Winget 버전
   ```shell
   winget install --id JetBrains.Toolbox
   ```
 
-#### GAMING
+#### GAMING 🎮
 
 - [Steam](https://store.steampowered.com/): \
   게임 플랫폼, Winget 버전
