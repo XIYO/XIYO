@@ -60,4 +60,12 @@
   ```shell
   winget install --id Valve.Steam
   ```
-  
+
+#### COMMUNICATION 💬
+
+- [Discord](https://discord.com/): \
+  음성 채팅 프로그램, MS 스토어 버전
+
+  ```shell
+  winget install --id XPDC2RH70K22MN
+  ```
