@@ -10,7 +10,7 @@ AI와 함께하는 작업을 반복 가능하고, 검토 가능하며, 신뢰하
 
 | 프로젝트 | 해결하는 일 | 플랫폼 | 단계 |
 | --- | --- | --- | --- |
-| [XIYO Plugins](https://github.com/XIYO/plugins) | Codex·Claude Code에 Apple Calendar와 메시지 분석 도구 설치 | macOS | Preview |
+| [XIYO Plugins](https://github.com/XIYO/plugins) | 캘린더·미리 알림·읽기 전용 메시지를 총괄하는 Sherpa 설치 | macOS | Preview |
 | [svelte-arch](https://github.com/XIYO/svelte-arch) | 사람과 AI 에이전트가 같은 SvelteKit 구조를 따르도록 주입형 킷과 자동 감사 제공 | SvelteKit | Preview |
 
 ### XIYO Plugins
@@ -19,11 +19,10 @@ GitHub에서 공개 마켓플레이스를 바로 추가할 수 있습니다.
 
 ```bash
 codex plugin marketplace add XIYO/plugins
-codex plugin add apple-calendar@xiyo
-codex plugin add message-pipeline@xiyo
+codex plugin add sherpa@xiyo
 ```
 
-설치한 스킬을 불러오려면 새 Codex 작업을 시작합니다. Claude Code 설치법과 플랫폼 선행 조건은 [플러그인 마켓플레이스](https://github.com/XIYO/plugins)에 정리합니다.
+Sherpa 하나만 설치하면 캘린더·미리 알림·메시지 전문 스킬이 내부에 함께 들어옵니다. 설치한 스킬을 불러오려면 새 Codex 작업을 시작합니다. Claude Code 설치법과 플랫폼 선행 조건은 [플러그인 마켓플레이스](https://github.com/XIYO/plugins)에 정리합니다.
 
 ### svelte-arch
 

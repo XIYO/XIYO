@@ -10,7 +10,7 @@ My current work focuses on agent integrations for macOS and architecture tooling
 
 | Project | What it helps you do | Platform | Stage |
 | --- | --- | --- | --- |
-| [XIYO Plugins](https://github.com/XIYO/plugins) | Install Apple Calendar and message-analysis tools in Codex or Claude Code | macOS | Preview |
+| [XIYO Plugins](https://github.com/XIYO/plugins) | Install Sherpa, one assistant for Calendar, Reminders, and read-only message workflows | macOS | Preview |
 | [svelte-arch](https://github.com/XIYO/svelte-arch) | Keep people and AI agents on the same SvelteKit architecture, with an injectable kit and automated audits | SvelteKit | Preview |
 
 ### XIYO Plugins
@@ -19,11 +19,10 @@ Add the public marketplace directly from GitHub:
 
 ```bash
 codex plugin marketplace add XIYO/plugins
-codex plugin add apple-calendar@xiyo
-codex plugin add message-pipeline@xiyo
+codex plugin add sherpa@xiyo
 ```
 
-Start a new Codex task after installation so the installed skills are loaded. Claude Code installation and platform prerequisites are documented in the [plugin marketplace](https://github.com/XIYO/plugins).
+Sherpa is the single entry point; its Calendar, Reminders, and message specialists are bundled internally. Start a new Codex task after installation so the installed skills are loaded. Claude Code installation and platform prerequisites are documented in the [plugin marketplace](https://github.com/XIYO/plugins).
 
 ### svelte-arch
 
