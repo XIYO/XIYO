@@ -17,3 +17,7 @@ This repository is the public GitHub profile for XIYO. Treat it as a curated ent
 - Confirm every linked project is public before adding it.
 - Verify installation commands against the current CLI help and the target repository's public default branch.
 - Review both language files in the same change.
+
+# CLAUDE.md
+
+Read and follow [AGENTS.md](AGENTS.md) before changing this repository.
